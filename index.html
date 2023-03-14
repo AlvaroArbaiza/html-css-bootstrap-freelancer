@@ -17,20 +17,52 @@
 <body>
     
     <!-- HEADER -->
-    <header class="container-fluid bg-blue-grey">
+    <header class="bg-blue-grey">
+    
+        <div class="container-md px-4 py-4 ">
 
-        <!-- NavBar -->          
-        <nav class="container row">
-            
-            <!-- left -->
-            <a class="col" href="#">START BOOTSTRAP</a>
+            <!-- NavBar -->          
+            <nav class="row justify-content-between align-items-center">
+                
+                <!-- left -->
+                <a class="col-5 text-white text-decoration-none fw-bold fs-5" href="#">
+                    START BOOTSTRAP
+                </a>
 
-            <!-- right -->
-            <div class="col">
+                <!-- right -->
+                <a class="col-1 d-block d-sm-none text-white-50 text-decoration-non text-center border rounded border-white p-1">
 
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </nav>
+                    <i class="fa-solid fa-bars fs-5 lh-base"></i>
+                </a>
+
+                <!-- md, lg responsive  -->
+                <div class="col-6 d-none d-sm-block">
+
+                    <ul class="list-group list-group-horizontal d-flex justify-content-end">
+
+                        <li class="list-group-item bg-transparent border border-0">
+                            <a class="text-white text-decoration-none fs-6 fw-semibold">
+                                PORTFOLIO
+                            </a>
+                        </li>
+                        
+                        <li class="list-group-item bg-transparent border border-0">
+                            <a class="text-white text-decoration-none fs-6 fw-semibold">
+                                ABOUT
+                            </a>
+                        </li>
+                        
+                        <li class="list-group-item bg-transparent border border-0">
+                            <a class="text-white text-decoration-none fs-6 fw-semibold">
+                                CONTACT
+                            </a>
+                        </li>                    
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        
 
 
 
@@ -39,20 +71,29 @@
     <!-- MAIN -->
     <main>
 
-        <div class="container">
+        <!-- START BOOTSTRAP -->
+        <section class="container-fluid bg-green-shine">
+            
+            <div class="container d-flex justify-content-center">
 
-            <!-- START BOOTSTRAP -->
-            <section></section>
+            </div>
 
-            <!-- PORTFOLIO -->
-            <section></section>
+        </section>
 
-            <!-- ABOUT -->
-            <section></section>
+        <!-- PORTFOLIO -->
+        <section class="container-fluid">
 
-            <!-- CONTACT ME -->
-            <section></section>
-        </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="container-fluid bg-green-shine">
+
+        </section>
+
+        <!-- CONTACT ME -->
+        <section class="container-fluid">
+
+        </section>
         
     </main>
 
